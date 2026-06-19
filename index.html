@@ -983,7 +983,7 @@ footer .sig{ font-family: var(--f-script); font-size: 1.2rem; color: var(--wine-
       </button>
       <!-- EDIT: put your real audio file at audio/our-song.mp3 (or change the path below) -->
       <audio id="bgAudio" loop preload="none">
-        <source src="C:/Users/Kashyap/OneDrive/Pictures/hmmm/song1.mp3" type="audio/mpeg">
+        <source src="song1.mp3" type="audio/mpeg">
       </audio>
     </div>
   </div>
@@ -1327,7 +1327,7 @@ const PHOTOS = [
         musicToggle.classList.add('playing');
         musicToggle.setAttribute('aria-pressed','true');
       }).catch(() => {
-        musicLabel.textContent = "C:/Users/Kashyap/OneDrive/Pictures/hmmm/song1.mp3";
+        musicLabel.textContent = "song1.mp3";
       });
     } else {
       audio.pause();
